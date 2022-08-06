@@ -76,7 +76,7 @@ const mouseEvent = document.addEventListener('mousemove', (e)=>{
 const showHeader = () =>{
   header.classList.remove('header__hidden');
   clearTimeout(hideHeader);
-  hideHeader = setTimeout(() =>{ header.classList.add('header__hidden')}, 1000);
+  hideHeader = setTimeout(() =>{ header.classList.add('header__hidden')}, 5000);
 
 }
 showHeader();
